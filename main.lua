@@ -1,6 +1,6 @@
 branch = {
     amount = 5,
-    length = 20,
+    length = 10,
     space  = 5
 }
 
@@ -52,7 +52,7 @@ function refuel(amount)
     if turtle.getFuelLevel() == "unlimited" then 
         return 
     end
-    if turtle.getFuelLevel() < 96*amount then
+    if turtle.getFuelLevel() < 10*amount then
         turtle.select(slot.fuel)
         turtle.refuel(amount)
     end

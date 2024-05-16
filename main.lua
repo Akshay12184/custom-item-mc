@@ -45,8 +45,13 @@ function forward(length)
             turtle.placeDown()
         end
         turtle.forward()
+
+        if turtle.detect() then
+            turtle.dig()
+        end
     end
 end
+
 
 function refuel(amount)
     if turtle.getFuelLevel() == "unlimited" then 

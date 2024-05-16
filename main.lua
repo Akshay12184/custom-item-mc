@@ -1,6 +1,6 @@
 branch = {
     amount = 5,
-    length = 10,
+    length = 20,
     space  = 5
 }
 
@@ -52,27 +52,34 @@ function refuel(amount)
     if turtle.getFuelLevel() == "unlimited" then 
         return 
     end
-    if turtle.getFuelLevel() < 10*amount then
-        turtle.select(slot.fuel)
-        turtle.refuel(amount)
+    local neededFuel = 10 * amount
+    if turtle.getFuelLevel() < neededFuel then
+        local fuelSlot = slot.fuel
+        turtle.select(fuelSlot)
+        local refueled = turtle.refuel(amount)
+        if not refueled then
+            print("Error: No fuel available in slot ", fuelSlot)
+        end
     end
 end
 
-function back(length)
-    for i=1, length, 1 do
+
+function back()
+    for i=1, 10, 1 do
         if i == 9 then 
             torch() 
         end
-        if (i - 8) % 16 == 0 and i > 9 then 
+        if (i - 5) % 10 == 0 and i > 9 then 
             torch() 
         end
         turtle.back()
-        if i == length - 1 and other.close then
+        if i == 9 and other.close then
             turtle.select(slot.fill)
             turtle.placeUp()
         end
     end
 end
+
 
 function turnLeft()
     turtle.turnLeft()

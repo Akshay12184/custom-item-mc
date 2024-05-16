@@ -41,8 +41,6 @@ turtle.forward()
 end
 end
 
-
-
 function refuel(amount)
 if turtle.getFuelLevel() == "unlimited" then return end
 if turtle.getFuelLevel() < 96*amount then

@@ -1,26 +1,25 @@
-beschrijving: 
+Description:
 
-* in dit project heb ik een mining bot gemaakt die voor je automatisch stripmined als je de bot coal geeft en wat torches. 
-* het doel van dit project was dat ik een werkende turtle zou kunne programmeren en kunne laten werken om iets te automatiseren.
-* mijn project past bij automatic mining.
+* In this project, I created a mining bot that automatically strip mines for you if you provide the bot with coal and some torches.
+* The goal of this project was to program a functional turtle and have it work to automate a task.
+* My project fits into the category of automatic mining.
 
 --- 
 
-functies: 
+Features:
 
-* automatisch minen  en torches plaatsen om te zoveel blokken. 
-* automatisch minen is handig zodat je zelf niet voor ores hoeft te zoeken de stripmine wordt al voor je gemaakt. 
-* automatisch torches plaatsen is handig en zorgt ervoor dat er geen monsters in de strip mine kunne spawnen.
-
+* Automatically mines and places torches every few blocks.
+* Automatic mining is convenient because you don't have to search for ores yourself; the strip mine is created for you.
+* Automatically placing torches is useful and ensures that no monsters can spawn in the strip mine.
 --- 
 
 impact: 
-* deze mining bot zou anderen mensen kunne helpen doordat er automatisch gemined voor ze wordt. 
-* je zou een mining bot army kunne starten om heel veel te minen en ores en anderen dingen snel te vinden. 
+* This mining bot could help other people by automatically mining for them. 
+* You could start a mining bot army to mine a lot and quickly find ores and other things.
 
 ---
 
 scope: 
-* mijn mining turtle is gefocust op strip minen niet om specefieke ores te zoeken. 
-*  ik heb nog geen functie toegeveogd dat hij exclusief voor ores gaat minen dus dat werkt niet. 
-* dit project heeft me ongeveer 2 dagen gekost met wat andere versies die niet helemaal gelukt waren. 
+* My mining turtle is focused on strip mining, not on searching for specific ores.
+* I haven't added a function yet for it to mine exclusively for ores, so that doesn't work.
+* This project took me about 2 days, with some other versions that didn't fully work.

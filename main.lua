@@ -52,7 +52,6 @@ function forward(length)
     end
 end
 
-
 function refuel(amount)
     if turtle.getFuelLevel() == "unlimited" then 
         return 
@@ -67,7 +66,6 @@ function refuel(amount)
         end
     end
 end
-
 
 function back()
     for i=1, 10, 1 do
